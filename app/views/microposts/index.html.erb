@@ -18,7 +18,7 @@
         <td><%= micropost.user_id %></td>
         <td><%= link_to 'hi', micropost %></td>
         <td><%= link_to 'edit', edit_micropost_path(micropost) %></td>
-        <td><%= link_to 'twt', micropost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'bye', micropost, method: :delete, data: { confirm: 'ru sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,5 +26,5 @@
 
 <br>
 
-<%= link_to 'New Micropost', new_micropost_path %><br>
+<%= link_to 'new twt pls', new_micropost_path %><br>
 <img src="http://aaphotographicarts.com/wp-content/uploads/2014/10/Yellow-Bird-150x150.jpg">
