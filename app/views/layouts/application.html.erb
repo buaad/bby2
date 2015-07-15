@@ -13,8 +13,9 @@
         <nav>
           <a href="http://bbytwt.herokuapp.com/microposts" class="button">make twt pls</a></center></nav>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <div class="header-container">
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <div class="header-container">
 <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
